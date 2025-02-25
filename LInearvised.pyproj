@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23289d65-899f-46d4-b2f5-88d758f01a9f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LInearvised.py</StartupFile>
+    <StartupFile>tund1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LInearvised.py" />
+    <Compile Include="tund1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fünktioonid.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
