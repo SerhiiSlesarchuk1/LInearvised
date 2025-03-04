@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23289d65-899f-46d4-b2f5-88d758f01a9f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tund1.py</StartupFile>
+    <StartupFile>Vigade otsing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="LInearvised.py" />
     <Compile Include="tund1.py" />
+    <Compile Include="Vigade otsing.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fünktioonid.txt" />
