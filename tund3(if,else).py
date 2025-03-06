@@ -66,19 +66,71 @@
 #     print("Ei ole pringinaabrid")
 
 #ÜL3 Remont
-a=float(input("Pikkus: "))
-b=float(input("Laius: "))
-S=a*b
-soov=input("Kas tahad remonti teha?")
-if soov.lower()=="jah":
-    print("Remont")
-    #--------------
-    hind=float(input("Hind: ")) #kontroll
-    #--------------
-    koguhind=S*hind
-    print(f"Sul on vaja {koguhind} Eur
+# a=float(input("Pikkus: "))
+# b=float(input("Laius: "))
+# S=a*b
+# soov=input("Kas tahad remonti teha?")
+# if soov.lower()=="jah":
+#     print("Remont")
+#     #--------------
+#     hind=float(input("Hind: ")) #kontroll
+#     #--------------
+#     koguhind=S*hind
+#     print(f"Sul on vaja {koguhind} Eur
     
     
-    ")
-else:
-    print("Head aega!")
+#     ")
+# else:
+#     print("Head aega!")
+#----------------------------------
+
+#ÜL 4
+# def hindkoosallahindlusega(täishind):
+#     if täishind > 700:
+#         soodushind = täishind * 0.7
+#         return soodushind
+#     else:
+#         return "Цена должна быть больше 700"
+
+# #--------------------------------
+# täishind=float(input("Введите первоначальную цену: "))
+# soodushind=hindkoosallahindlusega(täishind)
+
+# print(f"Цена со скидкой: {soodushind}")
+#----------------------------------
+
+#ÜL 5
+
+# def kontrolli_temperatuur(temperatuur):
+#     if temperatuur > 18:
+#         return "Temperatuur on üle 18 kraadi, see on mugav temperatuur."
+#     else:
+#         return "Temperatuur on 18 kraadi või madalam, võib-olla on vaja soojustada."
+
+# # Kasutamine
+# temperatuur = float(input("Sisesta temperatuur kraadides: "))
+# sõnum = kontrolli_temperatuur(temperatuur)
+
+# print(sõnum)
+#-----------------------------------
+
+#ÜL 6-7
+
+# Küsimine kasvu ja soo kohta
+# height = float(input("Sisesta oma pikkus sentimeetrites: "))
+# gender = input("Sisesta oma sugu (mees/naine): ").lower()
+
+# # Kasvu määramine
+# if height < 160:
+#     height_category = "madal"
+# elif 160 <= height <= 180:
+#     height_category = "keskmine"
+# else:
+#     height_category = "kõrge"
+
+# # Tulemuse kuvamine
+# print(f"Sinu pikkus on {height_category}.")
+#------------------------------------
+
+#ÜL 8
+# -
