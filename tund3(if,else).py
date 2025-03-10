@@ -116,7 +116,7 @@
 
 #ÜL 6-7
 
-# Küsimine kasvu ja soo kohta
+# #Küsimine kasvu ja soo kohta
 # height = float(input("Sisesta oma pikkus sentimeetrites: "))
 # gender = input("Sisesta oma sugu (mees/naine): ").lower()
 
@@ -130,7 +130,6 @@
 
 # # Tulemuse kuvamine
 # print(f"Sinu pikkus on {height_category}.")
-#------------------------------------
+# #------------------------------------
 
-#ÜL 8
-# -
+# #ÜL 8
