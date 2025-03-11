@@ -85,32 +85,23 @@
 #----------------------------------
 
 #ÜL 4
-# def hindkoosallahindlusega(täishind):
-#     if täishind > 700:
-#         soodushind = täishind * 0.7
-#         return soodushind
-#     else:
-#         return "Цена должна быть больше 700"
+# täishind = float(input("Введите первоначальную цену: "))
 
-# #--------------------------------
-# täishind=float(input("Введите первоначальную цену: "))
-# soodushind=hindkoosallahindlusega(täishind)
+# if täishind > 700:
+#     soodushind = täishind * 0.7
+#     print(f"Цена со скидкой: {soodushind}")
+# else:
+#     print("Цена должна быть больше 700")
 
-# print(f"Цена со скидкой: {soodushind}")
 #----------------------------------
 
 #ÜL 5
 
-# def kontrolli_temperatuur(temperatuur):
-#     if temperatuur > 18:
-#         return "Temperatuur on üle 18 kraadi, see on mugav temperatuur."
-#     else:
-#         return "Temperatuur on 18 kraadi või madalam, võib-olla on vaja soojustada."
-
-# # Kasutamine
-# temperatuur = float(input("Sisesta temperatuur kraadides: "))
-# sõnum = kontrolli_temperatuur(temperatuur)
-
+# temperatuur = float(input("Sisesta temperatuuri kraadides: "))
+# if temperatuur > 18:
+#     sõnum = "Temperatuur on üle 18 kraadi, see on mugav temperatuur."
+# else:
+#     sõnum = "Temperatuur on 18 kraadi või madalam, võib-olla on vaja soojustada."
 # print(sõnum)
 #-----------------------------------
 

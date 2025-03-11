@@ -95,18 +95,58 @@
 
 #ü 5
 
-user_input=input("kirjuta number: ")
+# # Ввод данных от пользователя
+# user_input = input("Введите число или текст: ")
 
-if user_input():
-    num=int(user_input)
-    print(f"täis arv. 50% arvest: {num * 0.5}")
-   
-elif user_input('.', '', 1) and user_input('.') == 1:
-    num = float(user_input)
-    print(f"Дробное arv. 70% arvest: {num * 0.7}")
-   
-elif user_input():
-    print(f" {user_input}")
+# # Проверка, является ли введенное значение числом
+# if user_input.isdigit() or (user_input.replace('.', '', 1).isdigit() and user_input.count('.') < 2):
+#     # Преобразуем введенное значение в число
+#     try:
+#         num = float(user_input)
+        
+#         if num.is_integer():
+#             # Если число целое, находим 50%
+#             result = num * 0.5
+#             print(f"Arv on täisarv. 50% -st {num} = {result}")
+#         else:
+#             # Если число дробное, находим 70%
+#             result = num * 0.7
+#             print(f"Arv on murdosa. 70% -st {num} = {result}")
+#     except ValueError:
+#         print("Numbrite teisendamise viga.")
+# else:
+#     # Если введено не число, проверяем текст
+#     if user_input.isalpha():
+#         print(f"Olete sisestanud teksti: {user_input}")
+#     else:
+#         print("Sisestatud väärtus, mis ei ole arv ega tekst.")
 
-else:
-    print("vale andmet")
+#Ül 6
+# import math
+
+# valik = input("Kas soovite lahendada ruutvõrrandi? (jah/ei): ").strip().lower()
+# if valik != "jah":
+#     print("Head aega!")
+# else:
+#     try:
+#         a = float(input("Sisestage kordaja a: "))
+#         b = float(input("Sisestage kordaja b: "))
+#         c = float(input("Sisestage kordaja c: "))
+#     except ValueError:
+#         print("Viga: Sisestage arvulised väärtused.")
+#     else:
+#         if a == 0:
+#             print("Viga: kordaja a ei tohi olla 0.")
+#         else:
+#             D = b ** 2 - 4 * a * c
+#             print(f"Diskriminant D = {D}")
+
+#             if D > 0:
+#                 x1 = (-b + math.sqrt(D)) / (2 * a)
+#                 x2 = (-b - math.sqrt(D)) / (2 * a)
+#                 print(f"Kaks lahendit: x1 = {round(x1, 2)}, x2 = {round(x2, 2)}")
+#             elif D == 0:
+#                 x = -b / (2 * a)
+#                 print(f"Üks lahend: x = {round(x, 2)}")
+#             else:
+#                 print("Lahend puudub (D < 0)")
