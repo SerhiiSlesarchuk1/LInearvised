@@ -108,3 +108,29 @@
 #     print("* " * i)
 #--------------------------------------
 #ÜL 7
+# import random  
+
+# for i in range(5):  
+#     print(random.randint(0, 9), end="")  
+
+# print()  
+#--------------------------------------
+#ÜL 8
+# paaris_loendur = 0
+# paaritu_loendur = 0
+
+# for arv in range(1, 101):  
+#     if arv % 2 == 0:
+#         print(f"{arv} - paaris")
+#         paaris_loendur += 1
+#     else:
+#         print(f"{arv} - paaritu")
+#         paaritu_loendur += 1
+
+# print(f"\nPaaris arvude arv: {paaris_loendur}")
+# print(f"Paaritute arvude arv: {paaritu_loendur}")
+#---------------------------------------
+#ÜL 9
+# for i in range(1, 11):  
+#     print(f"5 × {i} = {5 * i}")
+#---------------------------------------
