@@ -23,8 +23,8 @@ from typing import Type
 # kommidvõtmud=int(input("Mitu kommi tahad ära võtta?"))
 # onjäänud=kommidearv-kommidvõtmud
 # print(f"Laual on jäänud {onjäänud} komme")
-#Ülesanne 4
-puuradius = 10
+# #Ülesanne 4
+# puuradius = 10
 
-puuradius=input("Mis on puu radius?: ")
-print(f"Puu radius on {puuradius} cm")
+# puuradius=input("Mis on puu radius?: ")
+# print(f"Puu radius on {puuradius} cm")
