@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23289d65-899f-46d4-b2f5-88d758f01a9f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tund.py</StartupFile>
+    <StartupFile>tund4.4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LInearvised.py" />
-    <Compile Include="tund.py" />
+    <Compile Include="tund4.4.py" />
     <Compile Include="tund3.2.py" />
     <Compile Include="tund1.py" />
     <Compile Include="tund2.2.py" />
