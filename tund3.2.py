@@ -13,7 +13,7 @@
 # for i in range(1,11):
 #     print(f"{i}. samm")
 #----------------------------------
-#ÜL 1
+# ÜL 1
 # while True:
 #     try:
 #         nimi=input("Tere! mis su nimi on?: ")
@@ -71,7 +71,7 @@
 #         break
 #     elif pakkumine < salajane_number:
 #         print("Salajane number on suurem.")
-#     else:
+#     else
 #         print("Salajane number on väiksem.")
 
 # if pakkumine != salajane_number:
@@ -80,7 +80,7 @@
 #ÜL 4
 # for i in range(1, 11):
 #     for j in range(1, 11):
-#         print(f"{i} × {j} = {i * j}")
+#         /print(f"{i} × {j} = {i * j}")
 #     print()  
 #--------------------------------------
 #ÜL 5

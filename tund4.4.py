@@ -69,10 +69,10 @@
 # list_sõne2.clear()
 # print()
 
-#3
-# arvud = [18, 19, 32, 45, 60, 12]
-# for arv in arvud:
-#     print('*' * arv)
+3
+arvud = [18, 19, 32, 45, 60, 12]
+for arv in arvud:
+    print('*' * arv)
 
 # 5
 loend = [1, 2, 3, 4, 5, 6]
@@ -99,7 +99,3 @@ print([s.ljust(max_pikkus, '_') for s in sonad])
 import string
 n = int(input("Sisesta arv: "))
 print([c * (i+1) for i, c in enumerate(string.ascii_lowercase[:n])])
-
-
-
-
