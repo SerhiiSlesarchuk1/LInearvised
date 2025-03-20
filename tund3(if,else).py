@@ -12,7 +12,7 @@
 # else:
 #     print(f"Arv {a} on paaritu")
 
-#Ema-robot 5-, 4-, 3-, 2-, 1-
+# Ema-robot 5-, 4-, 3-, 2-, 1-
 # try:
 #     hinne=int(input("Mis hinne sai täna koolis?"))
 #     if hinne in range(1,6):
@@ -36,8 +36,8 @@
 #     print("Suured tähed")
 # else:
 #     print("Ei ole kõik suured tähed")
-#Ülesanne 1----------------------------------
-#1 Juku
+# Ülesanne 1----------------------------------
+# 1 Juku
 
 # nimi=input("Mis on sinu nimi?")
 # if nimi=="JUKU":
@@ -65,7 +65,7 @@
 # else:
 #     print("Ei ole pringinaabrid")
 
-#ÜL3 Remont
+# ÜL3 Remont
 # a=float(input("Pikkus: "))
 # b=float(input("Laius: "))
 # S=a*b
@@ -82,9 +82,9 @@
 #     ")
 # else:
 #     print("Head aega!")
-#----------------------------------
+# ----------------------------------
 
-#ÜL 4
+# ÜL 4
 # täishind = float(input("Введите первоначальную цену: "))
 
 # if täishind > 700:
@@ -93,9 +93,9 @@
 # else:
 #     print("Цена должна быть больше 700")
 
-#----------------------------------
+# ----------------------------------
 
-#ÜL 5
+# ÜL 5
 
 # temperatuur = float(input("Sisesta temperatuuri kraadides: "))
 # if temperatuur > 18:
@@ -103,9 +103,9 @@
 # else:
 #     sõnum = "Temperatuur on 18 kraadi või madalam, võib-olla on vaja soojustada."
 # print(sõnum)
-#-----------------------------------
+# -----------------------------------
 
-#ÜL 6-7
+# ÜL 6-7
 
 # #Küsimine kasvu ja soo kohta
 # height = float(input("Sisesta oma pikkus sentimeetrites: "))
