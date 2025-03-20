@@ -69,60 +69,37 @@
 # list_sõne2.clear()
 # print()
 
-#2.1
-# nimed = []
-# for i in range(5):
-#     nimi = input(f"Palun sisesta {i + 1}. nimi: ")
-#     nimed.append(nimi)
-
-# nimed.sort()
-
-# print("\nTähestikulises järjekorras:")
-# for nimi in nimed:
-#     print(nimi)
-
-# print(f"\nViimati lisatud nimi: {nimed[-1]}")
-
-# muuda = input("\nKas soovid muuta mõnda nime? (jah/ei): ")
-# if muuda.lower() == 'jah':
-#     vanus = int(input("Sisesta nime muutmiseks järjekord (1-5): "))
-#     vana_nimi = nimed[vanus - 1]
-#     uus_nimi = input(f"Muuda {vana_nimi}: ")
-#     nimed[vanus - 1] = uus_nimi
-#     nimed.sort()
-
-#     print("\nUus nimekiri:")
-#     for nimi in nimed:
-#         print(nimi)
-
-#2.2
-# nimi=[]
-# for i in range(5):
-#     nimi.append(input(f"{i+1}. nimi: "))
-# print(nimi)
-# list_nimi=list(nimi)
-
-#2.3
-# # Vanuste loend
-# vanused = [23, 45, 67, 34, 29, 40, 56]
-
-# # Leiame suurima ja väikseima arvu
-# suurim_vanus = max(vanused)
-# vakeim_vanus = min(vanused)
-
-# # Kogusumma ja keskmine
-# kogusumma = sum(vanused)
-# keskmine_vanus = kogusumma / len(vanused)
-
-# # Kuvame tulemused
-# print(f"Suurim vanus: {suurim_vanus}")
-# print(f"Väikseim vanus: {vakeim_vanus}")
-# print(f"Kogusumma: {kogusumma}")
-# print(f"Keskmine vanus: {keskmine_vanus:.2f}")
-
 #3
-arvud = [18, 19, 32, 45, 60, 12]
-for arv in arvud:
-    print('*' * arv)
+# arvud = [18, 19, 32, 45, 60, 12]
+# for arv in arvud:
+#     print('*' * arv)
+
+# 5
+loend = [1, 2, 3, 4, 5, 6]
+n = int(input("Mitu elementi vahetada? "))
+for i in range(n):
+    loend[i], loend[-1 - i] = loend[-1 - i], loend[i]
+print(loend)
+
+# 6
+numbrid = [10, 25, 8, 50, 13]
+numbrid[numbrid.index(max(numbrid))] /= len(numbrid)
+print(numbrid)
+
+# 7
+nums = [-5, 10, -3, 8, -2]
+print(sorted(nums, key=abs))
+
+# 8
+sonad = ['kass', 'koer', 'jänes']
+max_pikkus = max(map(len, sonad))
+print([s.ljust(max_pikkus, '_') for s in sonad])
+
+# 11
+import string
+n = int(input("Sisesta arv: "))
+print([c * (i+1) for i, c in enumerate(string.ascii_lowercase[:n])])
+
+
 
 
