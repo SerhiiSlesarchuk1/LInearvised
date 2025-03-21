@@ -23,7 +23,7 @@ for s in tekst_list:
 
 
 
-
+.
 
  sõne="Programmeerimine"
  print(sõne)
