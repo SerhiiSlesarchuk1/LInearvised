@@ -1,25 +1,24 @@
-# #Töö 4.4
-# #1
-# from string import *
-# vokaali=["a","e","u","o","i","ü","ö","õ","ä"]
-# konsonanti="jflsjdflsjlif"
-# numbrid=digits
-# märkid=punctuation
-# v=k=n=m=t=0
-# tekst=input("Sisend (sõna või lause): ").lower()
-# tekst_list=list(tekst)
-# for s in tekst_list:
-#     if s in vokaali:
-#         v+=1
-#     elif s in konsonanti:
-#         k+=1
-#     elif s in numbrid:
-#         n+=1
-#     elif s in märkid:
-#         m+=1
-#     elif s==" ":
-#         t+=1
-
+#Töö 4.4
+#1
+from string import *
+vokaali=["a","e","u","o","i","ü","ö","õ","ä"]
+konsonanti="jflsjdflsjlif"
+numbrid=digits
+märkid=punctuation
+v=k=n=m=t=0
+tekst=input("Sisend (sõna või lause): ").lower()
+tekst_list=list(tekst)
+for s in tekst_list:
+     if s in vokaali:
+        v+=1
+     elif s in konsonanti:
+        k+=1
+     elif s in numbrid:
+        n+=1
+     elif s in märkid:
+        m+=1
+     elif s==" ":
+        t+=1
 
 
 
@@ -99,3 +98,4 @@ print(elemendid)
 print(elemendid,elemendid)
 print(elemendid,elemendid,elemendid)
 print(elemendid,elemendid,elemendid,elemendid)
+.
