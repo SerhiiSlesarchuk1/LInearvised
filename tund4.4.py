@@ -21,9 +21,6 @@ for s in tekst_list:
         t+=1
 
 
-
-
-
 # sõne="Programmeerimine"
 # print(sõne)
 # list_sõne=list(sõne)
@@ -98,4 +95,3 @@ print(elemendid)
 print(elemendid,elemendid)
 print(elemendid,elemendid,elemendid)
 print(elemendid,elemendid,elemendid,elemendid)
-.
