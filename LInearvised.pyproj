@@ -28,7 +28,7 @@
     <Compile Include="tund2.2.py" />
     <Compile Include="tund2.3.py" />
     <Compile Include="tund3%28if,else%29.py" />
-    <Compile Include="tund4.4.py" />
+    <Compile Include="tund4.41.py" />
     <Compile Include="tund4.5.py" />
     <Compile Include="Vigade otsing.py" />
   </ItemGroup>
