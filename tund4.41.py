@@ -1,12 +1,12 @@
-#Tˆˆ 4.4
-#1
+#T√∂√∂ 4.4
+# #1
 from string import *
-vokaali=["a","e","u","o","i","¸","ˆ","ı","‰"]
+vokaali=["a","e","u","o","i","√º","√∂","√µ","√§"]
 konsonanti="jflsjdflsjlif"
 numbrid=digits
-m‰rkid=punctuation
+m√§rkid=punctuation
 v=k=n=m=t=0
-tekst=input("Sisend (sına vıi lause): ").lower()
+tekst=input("Sisend (s√µna v√µi lause): ").lower()
 tekst_list=list(tekst)
 for s in tekst_list:
      if s in vokaali:
@@ -15,23 +15,23 @@ for s in tekst_list:
         k+=1
      elif s in numbrid:
         n+=1
-     elif s in m‰rkid:
+     elif s in m√§rkid:
         m+=1
      elif s==" ":
         t+=1
 
 
-# sıne="Programmeerimine"
-# print(sıne)
-# list_sıne=list(sıne)
-# print(list_sıne)
-# print(f"Viies t‰ht: {list_sıne[4]}")
-# print(f"Sınes on {len(sıne)} t")
+# s√µne="Programmeerimine"
+# print(s√µne)
+# list_s√µne=list(s√µne)
+# print(list_s√µne)
+# print(f"Viies t√§ht: {list_s√µne[4]}")
+# print(f"S√µnes on {len(s√µne)} t")
 # for e in elemendid:
 #     print(e)
 # #extend
-# list_sıne.extend(elemendid)
-# print(list_sıne)
+# list_s√µne.extend(elemendid)
+# print(list_s√µne)
 # print(elemendid)
 # #insert
 # elemendid.insert(0,"A")
@@ -44,21 +44,21 @@ for s in tekst_list:
 # elemendid.pop()
 # print(elemendid)
 # #index
-# ind=list_sıne.index("r")
-# print(f"T‰ht r on {ind}-indeksiga")
+# ind=list_s√µne.index("r")
+# print(f"T√§ht r on {ind}-indeksiga")
 # #count
-# k=list_sıne.count("r")
-# print(f"T‰ht r kohtume {k} korda sınas {sıne}")
+# k=list_s√µne.count("r")
+# print(f"T√§ht r kohtume {k} korda s√µnas {s√µne}")
 # #sort
-# list_sıne.sort(reverse=True)
-# print(list_sıne)
+# list_s√µne.sort(reverse=True)
+# print(list_s√µne)
 # #reverse
-# list_sıne.reverse()
-# print(list_sıne)
+# list_s√µne.reverse()
+# print(list_s√µne)
 # #copy
-# list_sıne2=list_sıne.copy()
+# list_s√µne2=list_s√µne.copy()
 # #clear
-# list_sıne2.clear()
+# list_s√µne2.clear()
 # print()
 
 3
@@ -83,15 +83,15 @@ nums = [-5, 10, -3, 8, -2]
 print(sorted(nums, key=abs))
 
 8
-sonad = ['kass', 'koer', 'j‰nes']
+sonad = ['kass', 'koer', 'j√§nes']
 max_pikkus = max(map(len, sonad))
 print([s.ljust(max_pikkus, '_') for s in sonad])
 
 11
-elemendid=[]
+s√µnad=[]
 for i in range(1):
-    elemendid.append(input(f"{i}. element: "))
-print(elemendid)
-print(elemendid,elemendid)
-print(elemendid,elemendid,elemendid)
-print(elemendid,elemendid,elemendid,elemendid) 
+    s√µnad.append(input(f"{i+1}. s√µna: "))
+print(s√µnad)
+print(s√µnad,s√µnad)
+print(s√µnad,s√µnad,s√µnad)
+print(s√µnad,s√µnad,s√µnad,s√µnad) 
