@@ -21,7 +21,7 @@ if aasta>0:
 
 # square() kasutamine
 #Kontroll while True ja try except...
-a=float(input("Ruudu külg= "))
+a=float(input("Ruudu kÃ¼lg= "))
 
 S,P,D=square(a)
 
