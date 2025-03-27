@@ -1,4 +1,7 @@
 #1
+from random import randint
+
+
 def arithmetic(arv1:float,arv2:float,tehe:str)-> any:
     """Funktsioon töötab nagu lihtne kalkulaator
     + - liitmine
@@ -65,7 +68,8 @@ def season(parameter:int)->str:
 #5
 def bank(summa:float, aastad:int)->float:
     """Bank Funksioonid
-    Tagastab True, kui parameter on liigaasta ja False kui parameter on tavaline
+    Tagastab True, kui summa on liigaasta ja False kui summa on tavaline
+    Tagastab True, kui aastad on liigaasta ja False kui aastad on tavaline
     :param float summa: Sisenud kasutajalt
     :param int aastad: Sisenud kasutajalt
     :rtype: varMääramata tüüp (float või int)
@@ -73,3 +77,36 @@ def bank(summa:float, aastad:int)->float:
     for aasta in range(aastad):
         summa*=1.1
     return summa
+
+#6
+def is_prime(a=randint(1,10000))->bool:
+    """
+    Liigaasta leidmine
+    Tagastab True, kui aasta on liigaasta ja False kui aasta on tavaline aasta
+    :param int aasta: Sisenud kasutajalt
+    :rtype: bool tõeväärsuses formaadis tulemus
+    """
+    print(a)
+    v=True
+    for jagaja in range(2,a):
+        if a%jagaja==0:
+            v=False
+    return v
+
+#7
+def date(päev:int,kuu:int,aasta:int)->bool:
+    """
+    """
+    if päev in range(1,32) and kuu in[1,3,5,7,8,10,12] and aasta>0:
+        v=True
+    elif päev in range(1,30) and kuu==2 and is_year_leap(aasta):
+        v=True
+    elif päev in range(1,29) and kuu==2 and is_year_leap(aasta):
+        v=True
+    elif päev in range(1,31) and kuu in[4,6,9,11] and aasta>0:
+        v=True
+    else:
+        v=False
+    return v
+
+#8
