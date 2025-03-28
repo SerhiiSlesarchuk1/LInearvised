@@ -1,5 +1,5 @@
 #Töö 4.4
-# #1
+# 1
 from string import *
 vokaali=["a","e","u","o","i","ü","ö","õ","ä"]
 konsonanti="jflsjdflsjlif"
