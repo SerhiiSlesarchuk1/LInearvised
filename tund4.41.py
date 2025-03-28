@@ -80,11 +80,11 @@ print(numbrid)
 
 7
 nums = [-5, 10, -3, 8, -2]
-print(sorted(nums, key=abs))
+print(sorted(nums, key=abs))  #сравнивает
 
 8
 sonad = ['kass', 'koer', 'jänes']
-max_pikkus = max(map(len, sonad))
+max_pikkus = max(map(len, sonad)) 
 print([s.ljust(max_pikkus, '_') for s in sonad])
 
 11
@@ -96,7 +96,7 @@ print(sõnad,sõnad)
 print(sõnad,sõnad,sõnad)
 print(sõnad,sõnad,sõnad,sõnad) 
 
-# len() — Возвращает количество элементов (например, символов или чисел).
+# len() — Возвращает длину обьекта (например, символов или чисел).
 # list() — Преобразует в список.
 # max() — Находит наибольшее значение.
 # lower() — Преобразует строку в маленькие буквы.
