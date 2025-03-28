@@ -1,3 +1,20 @@
+from os import remove
+
+
+sõna=[]
+for i in range(5):
+    sõna.append(input(f"{i+1}sõna: "))
+    list_sõna=list(sõna)
+print(sõna)
+
+for i in range(5):
+    sõnad=input("do u want remove all name?")
+    if sõnad in sõna:
+        sõna.remove(sõnad)
+print(sõna)
+
+
+
 #Töö 4.4
 # 1
 from string import *
@@ -113,3 +130,4 @@ print(sõnad)
 # sort() — Сортирует список по порядку.
 # remove() — Удаляет первый найденный элемент.
 # if — Проверяет условие и выполняет код, если оно верно.
+
