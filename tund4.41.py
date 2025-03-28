@@ -61,40 +61,37 @@ for s in tekst_list:
 # list_sõne2.clear()
 # print()
 
-3
+#3
 arvud = [18, 19, 32, 45, 60, 12]
 for arv in arvud:
     print('*' * arv)
 
-5
+#5
 loend = [1, 2, 3, 4, 5, 6]
 n = int(input("Mitu elementi vahetada? "))
 for i in range(n):
     loend[i], loend[-1 - i] = loend[-1 - i], loend[i]
 print(loend)
 
-6
+#6
 numbrid = [10, 25, 8, 50, 13]
 numbrid[numbrid.index(max(numbrid))] /= len(numbrid)
 print(numbrid)
 
-7
+#7
 nums = [-5, 10, -3, 8, -2]
 print(sorted(nums, key=abs))  #сравнивает
 
-8
+#8
 sonad = ['kass', 'koer', 'jänes']
 max_pikkus = max(map(len, sonad)) 
 print([s.ljust(max_pikkus, '_') for s in sonad])
 
-11
+#11
 sõnad=[]
-for i in range(1):
+for i in range(5):
     sõnad.append(input(f"{i+1}. sõna: "))
 print(sõnad)
-print(sõnad,sõnad)
-print(sõnad,sõnad,sõnad)
-print(sõnad,sõnad,sõnad,sõnad) 
 
 # len() — Возвращает длину обьекта (например, символов или чисел).
 # list() — Преобразует в список.
