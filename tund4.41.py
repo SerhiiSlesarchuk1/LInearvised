@@ -1,4 +1,5 @@
 from os import remove
+from unittest import result
 
 
 sõna=[]
@@ -8,12 +9,25 @@ for i in range(5):
 print(sõna)
 
 for i in range(5):
-    sõnad=input("do u want remove all name?")
+    sõnad=input("remove: ")
     if sõnad in sõna:
         sõna.remove(sõnad)
 print(sõna)
 
+sõna2=[]
+for i in range(3):
+    sõna2.append(input(f"{i+1}sõna: "))
 
+result=sõna2+sõna
+print(result)   
+
+
+
+n=int(input("sisesta arv: "))
+for i in range(n):
+    result=int(input("remove: "))
+    sõna.pop(result-1)
+print(sõna)
 
 #Töö 4.4
 # 1
