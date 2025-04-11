@@ -22,6 +22,33 @@ while True:
     elif v==2:
         kustuda_andmed(palgad,inimesed)
 
+
+#6
+def sama_palk(palgad, nimed):
+    for palk in set(palgad):
+        mitu = palgad.count(palk)
+        if mitu > 1:
+            print(f"\nPalk: {palk}")
+            for i in range(len(palgad)):
+                if palgad[i] == palk:
+                    print(nimed[i])
+
+#7
+def otsi_palk(nimi, nimed, palgad):
+    for i in range(len(nimed)):
+        if nimed[i].lower() == nimi.lower():
+            print(f"{nimed[i]} saab {palgad[i]}")
+
+#8
+def palk_filter(nimed, palgad, summa, rohkem=True):
+    for i in range(len(palgad)):
+        if rohkem and palgad[i] > summa:
+            print(nimed[i], palgad[i])
+        elif not rohkem and palgad[i] < summa:
+            print(nimed[i], palgad[i])
+
+
+
 #12
 def sort_names(nimi_list, reverse=False):
     return sorted(nimi_list, reverse=reverse)
@@ -64,3 +91,23 @@ def main():
             print(f"{nimi} – {palk} €")
     else:
         print(f"Ühtegi nime ei leitud tähega '{taht}'.")
+
+def Bonus_Salary(p: list, i: list):
+    """
+    """
+    for idx, (name, salary) in enumerate(zip(i, p), 1):
+        print("\nCurrent employees and salaries: ")
+        print(f"{idx}. {name}: {salary}")
+    try:
+        choise=int(input("Valige töötaja: ")) - 1
+        bonus=float(input("Kirjutage mittu protsentis palk tõused: "))
+        if 0<=choice<len(i) and bonus>0:
+            original_salary=p[choice]
+            bonus_to=bonus/100
+            bonus_salary=original_salary*bonus_to+original_salary
+            print(f"New salary is: {bonus_salary}")
+        else:
+            print("Valige eksisteeriv töötaja ja valige bonus rohkem kui 0")
+
+    except:
+        print("Error!")
