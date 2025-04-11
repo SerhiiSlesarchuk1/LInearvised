@@ -1,3 +1,9 @@
+str='qwerty'
+s=str.split('a')
+print(s)
+
+
+
 from palgad1 import *
 
 
