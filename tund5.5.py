@@ -1,4 +1,6 @@
-﻿#1
+
+
+#1
 def kool():
     """
     Täidab kaks loendit ja sorteerib õpilased nende hinnete järgi
