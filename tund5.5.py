@@ -90,9 +90,9 @@ def linnad():
         elif valik=="3":
             soov = int(input("Soovitud number: "))
             closest=min(zip(linnad, elanikud), key=lambda x: abs(x[1] - soov))
-            print(f"Ближайший: {closest[0]}")
+            print(f"Lähim: {closest[0]}")
         elif valik=="4":
-            n = int(input("Меньше какого числа: "))
+            n = int(input("Vähem kui number: "))
             for nimi, arv in zip(linnad, elanikud):
                 if arv<n:
                     print(f"{nimi}: {arv}")
@@ -106,15 +106,15 @@ def pood():
     
     """
     ostud,hinnad =[],[]
-    n=int(input("Сколько товаров? "))
+    n=int(input("Mitu toodet? "))
     for _ in range(n):
-        ostud.append(input("Товар: "))
-        hinnad.append(float(input("Цена: ")))
+        ostud.append(input("Toode: "))
+        hinnad.append(float(input("Hind: ")))
 
     while True:
-        valik=input("\n1 - Купить\n2 - Сортировать\n3 - Дорогой/Дешевый\n4 - Найти цену\n5 - Чек\n6 - Выход: ")
+        valik=input("\n1 - Osta\n2 - Sorteeri\n3 - Kallis/Odav\n4 - Leia hind\n5 - Kontrollige\n6 - Välju: ")
         if valik=="1":
-            toode=input("Куплен: ")
+            toode=input("Ostetud: ")
             if toode in ostud:
                 idx=ostud.index(toode)
                 print(f"{toode}: {hinnad.pop(idx)}€")
@@ -123,13 +123,13 @@ def pood():
             for toode, hind in sorted(zip(ostud, hinnad)):
                 print(f"{toode}: {hind:.2f}€")
         elif valik=="3":
-            print(f"Дорогой: {ostud[hinnad.index(max(hinnad))]}, Дешевый: {ostud[hinnad.index(min(hinnad))]}")
+            print(f"Kallis: {ostud[hinnad.index(max(hinnad))]}, Odav: {ostud[hinnad.index(min(hinnad))]}")
         elif valik=="4":
-            toode=input("Товар: ")
+            toode=input("Toode: ")
             if toode in ostud:
                 print(f"{toode}: {hinnad[ostud.index(toode)]}€")
         elif valik=="5":
-            print(f"Чек: {sum(hinnad):.2f}€")
+            print(f"Kontrollige: {sum(hinnad):.2f}€")
         elif valik=="6":
             break
 
