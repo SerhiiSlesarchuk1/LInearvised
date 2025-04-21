@@ -33,7 +33,7 @@ def kool():
         elif valik=="5":
             break
 
-
+         
 #2
 import random
 def sport():
