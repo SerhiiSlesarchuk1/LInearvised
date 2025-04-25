@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23289d65-899f-46d4-b2f5-88d758f01a9f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tund61.py</StartupFile>
+    <StartupFile>Euroopariigid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Euroopariigid.py" />
     <Compile Include="LInearvised.py" />
     <Compile Include="palgad1.py" />
     <Compile Include="palgad.py" />
@@ -38,10 +39,12 @@
     <Compile Include="tund55.py" />
     <Compile Include="tund5.py" />
     <Compile Include="tund61.py" />
+    <Compile Include="tund7,1.py" />
     <Compile Include="Vigade otsing.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fünktioonid.txt" />
+    <Content Include="riigid_pealinnad.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
