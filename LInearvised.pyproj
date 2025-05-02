@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23289d65-899f-46d4-b2f5-88d758f01a9f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Euroopariigid.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Euroopariigid.py" />
+    <Compile Include="funktsioonid.py" />
     <Compile Include="LInearvised.py" />
+    <Compile Include="main.py" />
     <Compile Include="palgad1.py" />
     <Compile Include="palgad.py" />
     <Compile Include="tund3.2.py" />
@@ -40,6 +42,7 @@
     <Compile Include="tund5.py" />
     <Compile Include="tund61.py" />
     <Compile Include="tund7,1.py" />
+    <Compile Include="kontaktid.json" />
     <Compile Include="Vigade otsing.py" />
   </ItemGroup>
   <ItemGroup>
