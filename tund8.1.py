@@ -9,66 +9,6 @@
 
 # plt.scatter(x, y, color='lightblue')
 # plt.show()
-import numpy as np
-import matplotlib.pyplot as plt
-
-plt.figure(figsize=(8, 6))
-plt.title("Кит")
-
-
-x = np.linspace(0, 9, 300)
-y = 2/27 * x**2 - 3
-plt.plot(x, y, color="red")
-
-
-x = np.linspace(-10, 0, 300)
-y = 0.04 * x**2 - 3
-plt.plot(x, y, color="magenta")
-
-
-x = np.linspace( -9, -3, 300)
-y = 2/3 * (x + 6)**2 + 1
-plt.plot(x, y, color="orange")
-
-
-x = np.linspace(-3, 9, 300)
-y = -1/12 * (x - 3)**2 + 6
-plt.plot(x, y, color="blue")
-
-
-x = np.linspace(5, 8.3, 300)
-y = 1/9 * (x - 5)**2 + 2
-plt.plot(x, y, color="purple")
-
-
-x = np.linspace(5, 8.5, 300)
-y = 1.5 - 1/8 * (x - 7)**2
-plt.plot(x, y, color="cyan")
-
-
-x = np.linspace(-13, -9, 300)
-y = -0.75 * (x + 11)**2 + 6
-plt.plot(x, y, color="brown")
-
-
-x = np.linspace(-15, -13, 300)
-y = -0.5 * (x + 13)**2 + 3
-plt.plot(x, y, color="green")
-
-
-x = np.linspace(-15, -10, 300)
-y = np.ones_like(x)
-plt.plot(x, y, color="gold")
-
-
-x = np.linspace(3, 4, 300)
-y = 3 * np.ones_like(x)
-plt.plot(x, y, color="navy")
-
-plt.grid(True)
-plt.xlabel("x")
-plt.ylabel("y")
-plt.show()
 
 #ÜL1 prilid
 import matplotlib.pyplot as plt
