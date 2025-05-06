@@ -3,36 +3,36 @@ import matplotlib.pyplot as plt
 
 #loeme andmed failist
 with open('maed.txt', 'r') as f:
-    lines = f.readlines()
+    lines=f.readlines()
 
 
 nimed=[]
 korgused=[]
 
 for rida in lines:
-    osad = rida.strip().split()
-    nimi = osad[0]
-    korgus = int(osad[1])
+    osad=rida.strip().split()
+    nimi=osad[0]
+    korgus=int(osad[1])
     nimed.append(nimi)
     korgused.append(korgus)
 
-korgused_np = np.array(korgused)
-keskmine = np.mean(korgused_np)
-maksimum = np.max(korgused_np)
-minimum = np.min(korgused_np)
-summa = np.sum(korgused_np)
+korgused_np=np.array(korgused)
+keskmine=np.mean(korgused_np)
+maksimum=np.max(korgused_np)
+minimum=np.min(korgused_np)
+summa=np.sum(korgused_np)
 
-print("M‰gede statistika:")
-print(f"Keskmine kırgus: {keskmine:.2f} m")
-print(f"Kırgeim m‰gi: {nimed[np.argmax(korgused_np)]} ({maksimum} m)")
-print(f"Madalaim m‰gi: {nimed[np.argmin(korgused_np)]} ({minimum} m)")
-print(f"Kırguste summa: {summa} m")
+print("M√§gede statistika:")
+print(f"Keskmine k√µrgus: {keskmine:.2f} m")
+print(f"K√µrgeim m√§gi: {nimed[np.argmax(korgused_np)]} ({maksimum} m)")
+print(f"Madalaim m√§gi: {nimed[np.argmin(korgused_np)]} ({minimum} m)")
+print(f"K√µrguste summa: {summa} m")
 
 plt.figure(figsize=(10,6))
 plt.bar(nimed, korgused, color='skyblue')
-plt.title('Maailma kırgeimad m‰ed')
-plt.xlabel('M‰gi')
-plt.ylabel('Kırgus (m)')
+plt.title('Maailma k√µrgeimad m√§ed')
+plt.xlabel('M√§gi')
+plt.ylabel('K√µrgus (m)')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig('maed_graafik.png')
@@ -43,9 +43,9 @@ korgused_sorted=sorted(korgused, reverse=True)
 
 plt.figure(figsize=(10, 6))
 plt.bar(nimed_sorted, korgused_sorted, color='orange')
-plt.title('Kırgeimad m‰ed (sorteeritud)')
-plt.xlabel('M‰gi')
-plt.ylabel('Kırgus (m)')
+plt.title('K√µrgeimad m√§ed (sorteeritud)')
+plt.xlabel('M√§gi')
+plt.ylabel('K√µrgus (m)')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig('maed_graafik_sorted.png')
